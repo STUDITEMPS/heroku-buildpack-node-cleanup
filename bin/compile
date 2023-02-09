@@ -3,7 +3,7 @@
 
 BUILD_DIR=$1
 
-echo "-----> Deleting the node_modules directory"
+echo "-----> Deleting node_modules"
 rm -rf $BUILD_DIR/node_modules/*
-echo "-----> Deleting .arn/cache"
+echo "-----> Deleting .yarn/cache"
 rm -rf $BUILD_DIR/.yarn/cache/*
